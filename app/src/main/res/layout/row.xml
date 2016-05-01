@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Guardian - 4 hours ago"
+            android:id="@+id/textView"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginRight="15dp"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="New Zeland&apos;s &apos;stunning&apos; $5 bill named best banknote of the year"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="25dp"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView"
+            android:textColor="#2f7426" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New zeland $5 note, winner of the 2015 international bank note of the year, showing Sir Edmund Hillary and Aoraki/Mount Coo..."
+            android:id="@+id/textView3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/textView2" />
+
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
